@@ -1,0 +1,30 @@
+{
+  "name": "asisten-presensi-bpkri",
+  "version": "1.0.0",
+  "description": "Asisten Presensi untuk pegawai BPK RI",
+  "main": "server.ts",
+  "dependencies": {
+    "@open-wa/wa-automate": "^3.2.0",
+    "typescript": "^4.1.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.22",
+    "@types/uuid": "^8.3.0",
+    "ts-node": "^9.1.1"
+  },
+  "scripts": {
+    "dev": "ts-node server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sutanlab/asisten-presensi-bpkri.git"
+  },
+  "author": "Sutan Gading Fadhillah Nasution",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sutanlab/asisten-presensi-bpkri/issues"
+  },
+  "homepage": "https://github.com/sutanlab/asisten-presensi-bpkri#readme"
+}
