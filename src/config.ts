@@ -1,8 +1,8 @@
-import { create } from '@open-wa/wa-automate'
-import { SESS_ID } from './variables'
+import { ConfigObject } from '@open-wa/wa-automate'
+import { SESSION_ID } from './variables'
 
-export default create({
-  sessionId: SESS_ID,
+const config: ConfigObject = {
+  sessionId: SESSION_ID,
   headless: true,
   qrTimeout: 0,
   authTimeout: 0,
@@ -18,4 +18,6 @@ export default create({
     '--disabkle-offline-load-stale-cache',
     '--disk-cache-size=0'
   ]
-})
+}
+
+export default config
